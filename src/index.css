@@ -1,0 +1,105 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Playfair+Display:wght@400;500;600;700&display=swap");
+@import "tailwindcss";
+
+@font-face {
+  font-family: "Pyidaungsu";
+  src: url("/fonts/Pyidaungsu.ttf") format("truetype");
+  font-display: swap;
+}
+
+:root {
+  font-family: "Inter", "Pyidaungsu", sans-serif;
+  color: #fff;
+  background: #12070d;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+}
+
+* { box-sizing: border-box; }
+
+html { scroll-behavior: smooth; }
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+  overflow-x: hidden;
+  background:
+    radial-gradient(circle at 20% 10%, rgba(244,114,182,.16), transparent 30%),
+    radial-gradient(circle at 80% 30%, rgba(190,24,93,.14), transparent 35%),
+    #12070d;
+}
+
+button { font-family: inherit; }
+img { user-select: none; -webkit-user-drag: none; }
+
+.font-romantic {
+  font-family: "Playfair Display", "Pyidaungsu", serif;
+}
+
+.font-myanmar {
+  font-family: "Pyidaungsu", "Inter", sans-serif;
+}
+
+.glass {
+  background: rgba(255,255,255,.07);
+  border: 1px solid rgba(255,255,255,.12);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  box-shadow:
+    0 20px 60px rgba(0,0,0,.25),
+    inset 0 1px 0 rgba(255,255,255,.08);
+}
+
+.glass-strong {
+  background: rgba(255,255,255,.1);
+  border: 1px solid rgba(255,255,255,.16);
+  backdrop-filter: blur(30px);
+  -webkit-backdrop-filter: blur(30px);
+}
+
+.romantic-gradient {
+  background:
+    radial-gradient(circle at 30% 20%, rgba(244,114,182,.22), transparent 35%),
+    radial-gradient(circle at 70% 80%, rgba(127,29,29,.3), transparent 40%),
+    linear-gradient(135deg, #1a0710, #2a0b18, #17070d);
+}
+
+.text-gradient {
+  background: linear-gradient(135deg, #fff, #f9a8d4, #fda4af);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.glow {
+  box-shadow:
+    0 0 40px rgba(244,114,182,.18),
+    0 0 100px rgba(190,24,93,.1);
+}
+
+button {
+  -webkit-tap-highlight-color: transparent;
+  touch-action: manipulation;
+}
+
+::selection {
+  background: rgba(244,114,182,.35);
+  color: white;
+}
+
+@media (max-width: 640px) {
+  .glass {
+    backdrop-filter: blur(16px);
+    -webkit-backdrop-filter: blur(16px);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  *, *::before, *::after {
+    animation-duration: .01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: .01ms !important;
+  }
+}
