@@ -101,9 +101,9 @@ function Surprise() {
                 <h2 className="font-romantic mt-5 text-4xl text-gradient sm:text-6xl">I Love You</h2>
 
                 <p className="font-myanmar mx-auto mt-7 max-w-xl text-base leading-8 text-white/70 sm:text-lg sm:leading-9">
-                  မင်းရဲ့မွေးနေ့တိုင်းကို ဒီလိုပဲ အတူတူဖြတ်သန်းချင်တယ်။
+                  ♥️မိန်းမကို အရမ်း အရမ်းချစ်တယ်။♥️
                   <br />
-                  ဒီနေ့ထက် နောက်နေ့တွေမှာ ပိုပြီးချစ်သွားမယ်။
+                    ♥️ခုလည်းချစ်တယ် နောင်လည်း ပိုချစ်မယ်♥️😘😘😘😘😘
                 </p>
 
                 <p className="font-romantic mt-10 text-xl text-pink-200/80">Today. Tomorrow. Always.</p>
